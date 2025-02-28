@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhancements</title>
+</head>
+<body>
+    <h1>Enhancements to Beach Tours Website</h1>
+    <p>Below are the enhancements I've made to my website about beach tours in Melbourne, Australia, along with descriptions and implementation details.</p>
+
+    <!-- Enhancement 1 -->
+    <h2>1. Interactive Image Map for Tour Locations</h2>
+    <p>
+        This enhancement improves user engagement by providing an interactive image map where users can click on different beach locations for tour information.
+    </p>
+    <p>
+        To implement this, I used an HTML `<map>` element along with `<area>` tags to define clickable areas on an image. Here's a simplified example:
+    </p>
+    <pre>
+        <code>
+        &lt;img src="map.jpg" usemap="#beachMap" alt="Beach Map"&gt;
+        &lt;map name="beachMap"&gt;
+            &lt;area shape="circle" coords="100,100,50" href="beach1.html" alt="Beach 1"&gt;
+            &lt;area shape="circle" coords="200,200,50" href="beach2.html" alt="Beach 2"&gt;
+            <!-- More areas defined here -->
+        &lt;/map&gt;
+        </code>
+    </pre>
+    <p>
+        Source: Self-implemented technique using HTML image maps.
+    </p>
+    <p>
+        <a href="index.html#interactive-map">Explore the interactive map on the homepage.</a>
+    </p>
+
+    <!-- Enhancement 2 -->
+    <h2>2. Custom CSS Grid Layout for Tour Packages</h2>
+    <p>
+        This enhancement enhances the visual appeal of tour package listings by using a custom CSS grid layout with hover effects.
+    </p>
+    <p>
+        I implemented this using CSS3 grid properties combined with hover effects. Here's a snippet of the CSS code:
+    </p>
+    <pre>
+        <code>
+        .tour-packages {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-gap: 20px;
+        }
+
+        .tour-package:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+        </code>
+    </pre>
+    <p>
+        Source: Self-implemented CSS grid layout and hover effects.
+    </p>
+    <p>
+        <a href="index.html#tour-packages">View the custom grid layout on the homepage.</a>
+    </p>
+</body>
+</html>
