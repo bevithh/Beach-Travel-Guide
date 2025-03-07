@@ -1,5 +1,5 @@
 # Beach-Travel-Guide
-his program is designed to create a Beach Travel Guide website for tourists visiting Melbourne, Australia. 
+This program is designed to create a Beach Travel Guide website for tourists visiting Melbourne, Australia. 
 The website provides detailed information about the best beaches in Melbourne, nearby hotels, attractions, and helpful travel tips to enhance the visitor experience. Using HTML for structuring the content and CSS for styling and layout, this website offers a visually appealing and user-friendly interface that showcases essential travel information in an organized manner.
 
 Program Overview:
